@@ -6,7 +6,6 @@ RUN npm install
 COPY curriculum-front ./
 RUN ls -l
 RUN npm run build
---COPY curriculum-front/nodeServer.js dist/nodeServer.js
 WORKDIR /usr/src/app/dist
 EXPOSE 8080
 CMD [ "node", "nodeServer.js" ]
