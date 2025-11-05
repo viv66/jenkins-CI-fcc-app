@@ -19,7 +19,7 @@ pipeline {
       }
     }
 
-    stage('Log into Dockerhub') {
+    stage('Log into Docker Hub') {
       environment {
         DOCKERHUB_USER = '586958'
         DOCKERHUB_PASSWORD = 'dbt38EmV$$'
