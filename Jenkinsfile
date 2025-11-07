@@ -32,7 +32,8 @@ pipeline {
 
     stage('Push') {
       steps {
-        sh '''docker push 586958/fuze365-curriculum-front:latest
+        sh '''docker push 586958/curr-front-end:latest 
+
 '''
       }
     }
