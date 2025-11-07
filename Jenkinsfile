@@ -15,7 +15,7 @@ pipeline {
 
     stage('Build') {
       steps {
-        sh '''docker build -f curr-front-end/Dockerfile -t 586958/curr-front-end:latest .
+        sh '''docker build -f curriculum-front/Dockerfile -t 586958/curr-front-end:latest .
 '''
       }
     }
